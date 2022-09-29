@@ -1,0 +1,77 @@
+.qizz-container {
+  .qizz-main {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .qizz-icon {
+      .qizz-icon__item {
+        li {
+          &:nth-child(1) {
+            color: #359aa7;
+            margin-bottom: 10px;
+          }
+          .qizz-icon__item__o{
+            cursor: pointer;
+            transition: all ease-in-out 0.2s;
+            font-size: 26px;
+            &:hover{
+                color:#db4432
+            }
+          }
+        }
+      }
+    }
+    .qizz-test {
+      .qizz__item {
+        padding: 0 100px;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        button {
+          width: 280px;
+          padding: 8px 4px;
+          border-radius: 100px;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .qizz-btn {
+      gap: 20px;
+      .qizz-btn__item{
+        font-size: 16px !important;
+      }
+      button {
+        padding: 8px 4px;
+        border: none;
+        outline: none;
+        &:disabled{
+            opacity: 0.4;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .qizz__item {
+    padding: 0 !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  .qizz-title {
+    font-size: 16px;
+  }
+  .qizz__item {
+    button {
+      width: 120px !important;
+      font-size: 12px;
+      padding: 6px 4px !important;
+    }
+  }
+  .qizz-btn {
+    gap: 5px !important;
+    .qizz-btn__item {
+      font-size: 16px !important;
+    }
+    button {
+      font-size: 12px !important;
+    }
+  }
+}

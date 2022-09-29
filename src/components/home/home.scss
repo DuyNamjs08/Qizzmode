@@ -1,0 +1,33 @@
+.home-container {
+   background: linear-gradient(45deg,	rgba(161, 140, 209,0.60) 0%, rgba(243, 181, 164, 0.65) 99%, rgba(250, 208, 196,0.75) 100%),
+   url('https://mediaaks.com/wp-content/uploads/2018/03/Capture.png') no-repeat center center / cover;
+  .home-container-main {
+    width: 320px;
+    height: 400px;
+    background: white;
+    z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 100%;
+    }
+    .btn-istruction{
+        background: #006e61;
+        color: white;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        
+    }
+    .home-btn {
+      gap: 15px;
+      button{
+        background: transparent;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
